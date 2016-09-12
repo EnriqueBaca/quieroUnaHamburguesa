@@ -12,6 +12,7 @@
 		85B7CB351D8129E000B0C9E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B7CB331D8129E000B0C9E5 /* Main.storyboard */; };
 		85B7CB371D8129E000B0C9E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B7CB361D8129E000B0C9E5 /* Assets.xcassets */; };
 		85B7CB3A1D8129E000B0C9E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B7CB381D8129E000B0C9E5 /* LaunchScreen.storyboard */; };
+		85B7CB451D812DF700B0C9E5 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B7CB441D812DF700B0C9E5 /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		85B7CB361D8129E000B0C9E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85B7CB391D8129E000B0C9E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85B7CB3B1D8129E000B0C9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B7CB431D812C1700B0C9E5 /* MyPlayground1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground1.playground; sourceTree = "<group>"; };
+		85B7CB441D812DF700B0C9E5 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,18 @@
 				85B7CB361D8129E000B0C9E5 /* Assets.xcassets */,
 				85B7CB381D8129E000B0C9E5 /* LaunchScreen.storyboard */,
 				85B7CB3B1D8129E000B0C9E5 /* Info.plist */,
+				85B7CB421D812AC800B0C9E5 /* Playground */,
 			);
 			path = "Quiero Una Hamburguesa";
+			sourceTree = "<group>";
+		};
+		85B7CB421D812AC800B0C9E5 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				85B7CB431D812C1700B0C9E5 /* MyPlayground1.playground */,
+				85B7CB441D812DF700B0C9E5 /* Datos.swift */,
+			);
+			name = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +151,7 @@
 			files = (
 				85B7CB321D8129E000B0C9E5 /* ViewController.swift in Sources */,
 				85B7CB301D8129E000B0C9E5 /* AppDelegate.swift in Sources */,
+				85B7CB451D812DF700B0C9E5 /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
